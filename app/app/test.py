@@ -9,11 +9,11 @@ class CalcTest(SimpleTestCase):
     """Test Calc modulde"""
     def test_add_module(self):
         """Adding numbers together"""
-        res = calc.add(5,6)
+        res = calc.add(5, 6)
 
-        self.assertEqual(res,11)
+        self.assertEqual(res, 11)
 
     def test_subtract_module(self):
         """Subtracting numbers together"""
-        res = calc.subtract(7,6)
-        self.assertEqual(res,1)
+        res = calc.subtract(7, 6)
+        self.assertEqual(res, 1)
